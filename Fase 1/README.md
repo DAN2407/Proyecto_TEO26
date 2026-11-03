@@ -24,4 +24,3 @@ python -m spacy download es_core_news_sm
 - `espanol/` gramáticas V1 (ingenua), V2 (concordancia por rasgos expandidos), V3 (+ relativas, PP, adverbios), oraciones etiquetadas y análisis de límites.
 - `nlp_demo/` comparación con NLTK y spaCy.
 - `tests/` pruebas del parser formal (válidas/inválidas/errores) y del español.
-- `informe/guion_informe.md` guía y datos para el informe.
