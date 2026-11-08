@@ -10,7 +10,7 @@ python -m spacy download es_core_news_sm
 ## Cómo ejecutar
 | Qué | Comando |
 |---|---|
-| Parser formal (subconjunto de C) sobre un archivo | `python -m formal programa.c` |
+| Parser formal (subconjunto de C) sobre un archivo | `python -m formal formal\ejemplo_valido.c` |
 | Parser formal desde stdin | `echo "int x = 2;" \| python -m formal` |
 | Todas las pruebas | `python -m unittest discover -s tests -t .` |
 | Tamaño de las gramáticas del español (V1/V2/V3) | `python -m espanol.gramatica_es` |
